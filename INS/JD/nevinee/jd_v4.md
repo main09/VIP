@@ -113,7 +113,7 @@ docker exec -it jd1 bash jup
 ```
 docker exec -it jd1 bash
 
-wget -q https://git.metauniverse-cn.com/https://mirror.ghproxy.com/jiulan/jd_v4/main/v4mb.sh -O v4mb.sh && chmod +x v4mb.sh && ./v4mb.sh
+wget -q https://mirror.ghproxy.com/https://raw.githubusercontent.com/jiulan/jd_v4/main/v4mb.sh -O v4mb.sh && chmod +x v4mb.sh && ./v4mb.sh
 ```
 #重启手动运行面板
 #先进入容器

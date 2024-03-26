@@ -1,4 +1,4 @@
-wget https://git.metauniverse-cn.com/https://mirror.ghproxy.com/jiulan/jd_v4/main/v4mb.tar.gz
+wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/jiulan/jd_v4/main/v4mb.tar.gz
 tar -zxvf v4mb.tar.gz
 rm -f v4mb.tar.gz
 mv v4mb/panel panel
