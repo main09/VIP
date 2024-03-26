@@ -162,7 +162,7 @@ docker exec -it qinglong ql repo https://git.metauniverse-cn.com/https://github.
 
 - 拉取单个脚本
 ``` sh
-docker exec -it qinglong ql raw https://git.metauniverse-cn.com/https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_cfd.js
+docker exec -it qinglong ql raw https://git.metauniverse-cn.com/https://mirror.ghproxy.com/moposmall/Script/main/Me/jx_cfd.js
 ```
 
 - 删除7天前的所有日志

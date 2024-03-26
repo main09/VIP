@@ -10,7 +10,7 @@
             "time":"30 9,21 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/github.js"
+                "target":"https://mirror.ghproxy.com/Peng-YM/QuanX/master/Tasks/github.js"
             },
             "running":true
         },
@@ -20,7 +20,7 @@
             "time":"0,15,30,45 0-23 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/Oreomeow/VIP/main/Scripts/js/News/wechatsubs.js"
+                "target":"https://mirror.ghproxy.com/Oreomeow/VIP/main/Scripts/js/News/wechatsubs.js"
             },
             "running":false
         },
@@ -30,7 +30,7 @@
             "time":"0 16 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js"
+                "target":"https://mirror.ghproxy.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js"
             },
             "running":true
         },
@@ -40,7 +40,7 @@
             "time":"30 19 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js"
+                "target":"https://mirror.ghproxy.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js"
             },
             "running":true
         },
@@ -50,7 +50,7 @@
             "time":"0 12 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/zZPiglet/Task/master/MovieCalendar/MovieCalendar.js"
+                "target":"https://mirror.ghproxy.com/zZPiglet/Task/master/MovieCalendar/MovieCalendar.js"
             },
             "running":true
         },
@@ -60,7 +60,7 @@
             "time":"0 */6 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/OlympicRanking.js"
+                "target":"https://mirror.ghproxy.com/ddgksf2013/Cuttlefish/master/Script/OlympicRanking.js"
             },
             "running":false
         },
@@ -70,7 +70,7 @@
             "time":"10 11 */3 * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/epic.js"
+                "target":"https://mirror.ghproxy.com/Peng-YM/QuanX/master/Tasks/epic.js"
             },
             "running":true
         }

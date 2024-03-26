@@ -46,7 +46,7 @@ $.html = $.name // `页面`类请求的响应体
 // 页面源码地址
 $.web = `https://cdn.jsdelivr.net/gh/chavyleung/scripts@${$.version}/box/chavy.boxjs.html?_=${new Date().getTime()}`
 // 版本说明地址 (Release Note)
-$.ver = `https://raw.githubusercontent.com/chavyleung/scripts/master/box/release/box.release.tf.json`
+$.ver = `https://mirror.ghproxy.com/chavyleung/scripts/master/box/release/box.release.tf.json`
 
 !(async () => {
   // 勿扰模式
@@ -288,17 +288,17 @@ function getSystemCfgs() {
     version: $.version,
     versionType: $.versionType,
     envs: [
-      { id: 'Surge', icons: ['https://raw.githubusercontent.com/Orz-3/mini/none/surge.png', 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/surge.png'] },
-      { id: 'QuanX', icons: ['https://raw.githubusercontent.com/Orz-3/mini/none/quanX.png', 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/quantumultx.png'] },
-      { id: 'Loon', icons: ['https://raw.githubusercontent.com/Orz-3/mini/none/loon.png', 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/loon.png'] },
-      { id: 'Shadowrocket', icons: ['https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/shadowrocket.png', 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/shadowrocket.png'] }
+      { id: 'Surge', icons: ['https://mirror.ghproxy.com/Orz-3/mini/none/surge.png', 'https://mirror.ghproxy.com/Orz-3/mini/master/Color/surge.png'] },
+      { id: 'QuanX', icons: ['https://mirror.ghproxy.com/Orz-3/mini/none/quanX.png', 'https://mirror.ghproxy.com/Orz-3/mini/master/Color/quantumultx.png'] },
+      { id: 'Loon', icons: ['https://mirror.ghproxy.com/Orz-3/mini/none/loon.png', 'https://mirror.ghproxy.com/Orz-3/mini/master/Color/loon.png'] },
+      { id: 'Shadowrocket', icons: ['https://mirror.ghproxy.com/Orz-3/mini/master/Alpha/shadowrocket.png', 'https://mirror.ghproxy.com/Orz-3/mini/master/Color/shadowrocket.png'] }
     ],
     chavy: { id: 'ChavyLeung', icon: 'https://avatars3.githubusercontent.com/u/29748519', repo: 'https://github.com/chavyleung/scripts' },
     senku: { id: 'GideonSenku', icon: 'https://avatars1.githubusercontent.com/u/39037656', repo: 'https://github.com/GideonSenku' },
     id77: { id: 'id77', icon: 'https://avatars0.githubusercontent.com/u/9592236', repo: 'https://github.com/id77' },
-    orz3: { id: 'Orz-3', icon: 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/Orz-3.png', repo: 'https://github.com/Orz-3/' },
-    boxjs: { id: 'BoxJs', show: false, icon: 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/box.png', icons: ['https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/box.png', 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/box.png'], repo: 'https://github.com/chavyleung/scripts' },
-    defaultIcons: ['https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/appstore.png', 'https://raw.githubusercontent.com/Orz-3/mini/master/Color/appstore.png']
+    orz3: { id: 'Orz-3', icon: 'https://mirror.ghproxy.com/Orz-3/mini/master/Color/Orz-3.png', repo: 'https://github.com/Orz-3/' },
+    boxjs: { id: 'BoxJs', show: false, icon: 'https://mirror.ghproxy.com/Orz-3/mini/master/Color/box.png', icons: ['https://mirror.ghproxy.com/Orz-3/mini/master/Alpha/box.png', 'https://mirror.ghproxy.com/Orz-3/mini/master/Color/box.png'], repo: 'https://github.com/chavyleung/scripts' },
+    defaultIcons: ['https://mirror.ghproxy.com/Orz-3/mini/master/Alpha/appstore.png', 'https://mirror.ghproxy.com/Orz-3/mini/master/Color/appstore.png']
   }
 }
 
@@ -333,34 +333,34 @@ function getSystemApps() {
       scripts: [
         {
           name: "抹掉：所有缓存",
-          script: "https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.caches.js"
+          script: "https://mirror.ghproxy.com/chavyleung/scripts/master/box/scripts/boxjs.revert.caches.js"
         },
         {
           name: "抹掉：收藏应用",
-          script: "https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.favapps.js"
+          script: "https://mirror.ghproxy.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.favapps.js"
         },
         {
           name: "抹掉：用户偏好",
-          script: "https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.js"
+          script: "https://mirror.ghproxy.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.js"
         },
         {
           name: "抹掉：所有会话",
-          script: "https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.sessions.js"
+          script: "https://mirror.ghproxy.com/chavyleung/scripts/master/box/scripts/boxjs.revert.usercfgs.sessions.js"
         },
         {
           name: "抹掉：所有备份",
-          script: "https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.baks.js"
+          script: "https://mirror.ghproxy.com/chavyleung/scripts/master/box/scripts/boxjs.revert.baks.js"
         },
         {
           name: "抹掉：BoxJs (注意备份)",
-          script: "https://raw.githubusercontent.com/chavyleung/scripts/master/box/scripts/boxjs.revert.boxjs.js"
+          script: "https://mirror.ghproxy.com/chavyleung/scripts/master/box/scripts/boxjs.revert.boxjs.js"
         }
       ],
       author: '@chavyleung',
       repo: 'https://github.com/chavyleung/scripts/blob/master/box/switcher/box.switcher.js',
       icons: [
-        'https://raw.githubusercontent.com/chavyleung/scripts/master/box/icons/BoxSetting.mini.png', 
-        'https://raw.githubusercontent.com/chavyleung/scripts/master/box/icons/BoxSetting.png'
+        'https://mirror.ghproxy.com/chavyleung/scripts/master/box/icons/BoxSetting.mini.png', 
+        'https://mirror.ghproxy.com/chavyleung/scripts/master/box/icons/BoxSetting.png'
       ]
     },
     {
@@ -372,10 +372,10 @@ function getSystemApps() {
       author: '@chavyleung',
       repo: 'https://github.com/chavyleung/scripts/blob/master/box/switcher/box.switcher.js',
       icons: [
-        'https://raw.githubusercontent.com/chavyleung/scripts/master/box/icons/BoxSwitcher.mini.png', 
-        'https://raw.githubusercontent.com/chavyleung/scripts/master/box/icons/BoxSwitcher.png'
+        'https://mirror.ghproxy.com/chavyleung/scripts/master/box/icons/BoxSwitcher.mini.png', 
+        'https://mirror.ghproxy.com/chavyleung/scripts/master/box/icons/BoxSwitcher.png'
       ],
-      script: 'https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js'
+      script: 'https://mirror.ghproxy.com/chavyleung/scripts/master/box/switcher/box.switcher.js'
     }
   ]
   return sysapps

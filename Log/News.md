@@ -185,10 +185,10 @@ docker exec -it qinglong nginx -c /etc/nginx/nginx.conf
     - 容器内执行 或 docker 宿主机执行
     - 默认仓库为`JDHelloWorld`，使用其他仓库需自行修改
 ``` sh
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/liuqitoday/qinglong-auto-sharecodes/master/one-key.sh)"
+bash -c "$(curl -fsSL https://mirror.ghproxy.com/liuqitoday/qinglong-auto-sharecodes/master/one-key.sh)"
 ```
 ``` sh
-docker exec -it qinglong bash -c "$(curl -fsSL https://raw.githubusercontent.com/liuqitoday/qinglong-auto-sharecodes/master/one-key.sh)"
+docker exec -it qinglong bash -c "$(curl -fsSL https://mirror.ghproxy.com/liuqitoday/qinglong-auto-sharecodes/master/one-key.sh)"
 ```
 
 ## 06.26 21:30

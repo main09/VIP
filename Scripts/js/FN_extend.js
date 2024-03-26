@@ -1,6 +1,6 @@
 // @grant nodejs
 console.log("⏳ 初始化安装依赖中......")
-$exec('wget https://raw.githubusercontent.com/Oreomeow/freenom-py/main/requirements.txt -O requirements.txt && pip3 install -r requirements.txt', {
+$exec('wget https://mirror.ghproxy.com/Oreomeow/freenom-py/main/requirements.txt -O requirements.txt && pip3 install -r requirements.txt', {
   cwd: './script/Shell',
   timeout: 0,
   cb(data, error) {

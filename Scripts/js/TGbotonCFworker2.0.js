@@ -54,8 +54,8 @@
  * 
  * 脚本相关
  * /runjs file.js       ;运行脚本
- * /runjs https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/webhook.js
- * /runjs https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/feed.js anotify.js  ;运行远程脚本同时重命名保存为 anotify.js
+ * /runjs https://mirror.ghproxy.com/elecV2/elecV2P/master/script/JSFile/webhook.js
+ * /runjs https://mirror.ghproxy.com/elecV2/elecV2P/master/script/JSFile/feed.js anotify.js  ;运行远程脚本同时重命名保存为 anotify.js
  * /deljs file.js       ;删除脚本
  *
  * shell 指令相关
@@ -103,7 +103,7 @@ let CONFIG_EV2P = {
     execls: 'exec ls -al',      // 同上，表示自动将命令 /execls 替换成 exec ls -al。 其他命令可参考自行添加
     update: {                   // 当为 object 类型时，note 表示备注显示信息， command 表示实际执行命令
       note: '软更新升级',
-      command: 'runjs https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/softupdate.js'
+      command: 'runjs https://mirror.ghproxy.com/elecV2/elecV2P/master/script/JSFile/softupdate.js'
     }
   },
   mode: {
@@ -579,7 +579,7 @@ async function handlePostRequest(request) {
 示例一：添加一个 cron 定时任务
 
 30 20 * * *
-https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/deletelog.js
+https://mirror.ghproxy.com/elecV2/elecV2P/master/script/JSFile/deletelog.js
 删除日志
 
 示例二：添加一个倒计时任务，运行 test.js，每次倒计时 1 秒，执行 3 次

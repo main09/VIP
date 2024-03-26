@@ -20,7 +20,7 @@
             "time":"0 9,12,18 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_nc.js"
+                "target":"https://mirror.ghproxy.com/whyour/hundun/master/quanx/jx_nc.js"
             },
             "running":true
         },
@@ -70,7 +70,7 @@
             "time":"10 0 * * * ",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/whyour/hundun/master/quanx/jdzz.js"
+                "target":"https://mirror.ghproxy.com/whyour/hundun/master/quanx/jdzz.js"
             },
             "running":true
         },
@@ -130,7 +130,7 @@
             "time":"11 1 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js"
+                "target":"https://mirror.ghproxy.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js"
             },
             "running":true
         },

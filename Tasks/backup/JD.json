@@ -40,7 +40,7 @@
             "time":"0-1 0 0 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/GoodStudying/local_file/main/task/v2p_task/jd_blueCoin.js"
+                "target":"https://mirror.ghproxy.com/GoodStudying/local_file/main/task/v2p_task/jd_blueCoin.js"
             },
             "running":true
         },
@@ -90,7 +90,7 @@
             "time":"1 0,12 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js"
+                "target":"https://mirror.ghproxy.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js"
             },
             "running":true
         },
@@ -110,7 +110,7 @@
             "time":"20 30 * * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/Oreomeow/longzhuzhu/main/qx/jd_half_redrain.js"
+                "target":"https://mirror.ghproxy.com/Oreomeow/longzhuzhu/main/qx/jd_half_redrain.js"
             },
             "running":true
         },
@@ -120,7 +120,7 @@
             "time":"30 18 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/whyour/hundun/master/quanx/jd_zjd.js"
+                "target":"https://mirror.ghproxy.com/whyour/hundun/master/quanx/jd_zjd.js"
             },
             "running":true
         },
@@ -160,7 +160,7 @@
             "time":"10 0,8,11,17 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit.js"
+                "target":"https://mirror.ghproxy.com/passerby-b/JDDJ/main/jddj_fruit.js"
             },
             "running":true
         },
@@ -170,7 +170,7 @@
             "time":"5 */2 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit_collectWater.js"
+                "target":"https://mirror.ghproxy.com/passerby-b/JDDJ/main/jddj_fruit_collectWater.js"
             },
             "running":true
         },
@@ -180,7 +180,7 @@
             "time":"0 8 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_bean.js"
+                "target":"https://mirror.ghproxy.com/passerby-b/JDDJ/main/jddj_bean.js"
             },
             "running":true
         },
@@ -190,7 +190,7 @@
             "time":"0 9 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_plantBeans.js"
+                "target":"https://mirror.ghproxy.com/passerby-b/JDDJ/main/jddj_plantBeans.js"
             },
             "running":true
         },
@@ -200,7 +200,7 @@
             "time":"0-25/5 0 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_getPoints.js"
+                "target":"https://mirror.ghproxy.com/passerby-b/JDDJ/main/jddj_getPoints.js"
             },
             "running":true
         },
@@ -310,7 +310,7 @@
             "time":"3 10 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/Oreomeow/dust/dust/i-chenzhe/z_marketLottery.js"
+                "target":"https://mirror.ghproxy.com/Oreomeow/dust/dust/i-chenzhe/z_marketLottery.js"
             },
             "running":true
         },
@@ -320,7 +320,7 @@
             "time":"6 * * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/jxcollect.js"
+                "target":"https://mirror.ghproxy.com/ZhiYi-N/Private-Script/master/Scripts/jxcollect.js"
             },
             "running":true
         },
@@ -390,7 +390,7 @@
             "time":"5 8 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js"
+                "target":"https://mirror.ghproxy.com/iisams/Scripts/master/liwo/jdtqz.js"
             },
             "running":true
         },
@@ -410,7 +410,7 @@
             "time":"3 20 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/Oreomeow/dust/dust/i-chenzhe/z_shake.js"
+                "target":"https://mirror.ghproxy.com/Oreomeow/dust/dust/i-chenzhe/z_shake.js"
             },
             "running":true
         },
@@ -420,7 +420,7 @@
             "time":"20 0 * * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/Oreomeow/longzhuzhu/main/qx/jd_super_redrain.js"
+                "target":"https://mirror.ghproxy.com/Oreomeow/longzhuzhu/main/qx/jd_super_redrain.js"
             },
             "running":true
         },
@@ -460,7 +460,7 @@
             "time":"59 59 23 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/GoodStudying/local_file/main/task/JX_CFD_TX.js"
+                "target":"https://mirror.ghproxy.com/GoodStudying/local_file/main/task/JX_CFD_TX.js"
             },
             "running":false
         },
@@ -470,7 +470,7 @@
             "time":"0-3 0 0 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/GoodStudying/local_file/main/task/JX_CFD_TX.js"
+                "target":"https://mirror.ghproxy.com/GoodStudying/local_file/main/task/JX_CFD_TX.js"
             },
             "running":true
         },
@@ -540,7 +540,7 @@
             "time":"6 0-23/3 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/chinnkarahoi/jd_scripts/master/jd_speed.js"
+                "target":"https://mirror.ghproxy.com/chinnkarahoi/jd_scripts/master/jd_speed.js"
             },
             "running":true
         },

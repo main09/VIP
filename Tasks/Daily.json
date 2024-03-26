@@ -10,7 +10,7 @@
             "time":"0",
             "job":{
                 "type":"exec",
-                "target":"wget -q https://raw.githubusercontent.com/Oreomeow/VIP/main/Scripts/py/requirements.txt -O requirements.txt && pip3 install -r requirements.txt"
+                "target":"wget -q https://mirror.ghproxy.com/Oreomeow/VIP/main/Scripts/py/requirements.txt -O requirements.txt && pip3 install -r requirements.txt"
             },
             "running":false
         },
@@ -20,7 +20,7 @@
             "time":"30 6 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
+                "target":"https://mirror.ghproxy.com/ztxtop/x/main/youth_banner.js"
             },
             "running":true
         },
@@ -30,7 +30,7 @@
             "time":"10 */1 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js"
+                "target":"https://mirror.ghproxy.com/GoodHolidays/Scripts/master/Task/youth.js"
             },
             "running":true
         },
@@ -40,7 +40,7 @@
             "time":"10 */2 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/KodoShinichi/elecV2P/main/Taks-elecV2P/youthread_elecV2.js"
+                "target":"https://mirror.ghproxy.com/KodoShinichi/elecV2P/main/Taks-elecV2P/youthread_elecV2.js"
             },
             "running":true
         },
@@ -50,7 +50,7 @@
             "time":"0 10 */7 * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/Oreomeow/VIP/main/Scripts/js/EUserv_extend.js"
+                "target":"https://mirror.ghproxy.com/Oreomeow/VIP/main/Scripts/js/EUserv_extend.js"
             },
             "running":true
         },
@@ -60,7 +60,7 @@
             "time":"25 20 * * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/Oreomeow/VIP/main/Scripts/js/mimotion.js"
+                "target":"https://mirror.ghproxy.com/Oreomeow/VIP/main/Scripts/js/mimotion.js"
             },
             "running":true
         },
@@ -70,7 +70,7 @@
             "time":"25 7 */10 * *",
             "job":{
                 "type":"runjs",
-                "target":"https://raw.githubusercontent.com/Oreomeow/VIP/main/Scripts/js/FNplus.js"
+                "target":"https://mirror.ghproxy.com/Oreomeow/VIP/main/Scripts/js/FNplus.js"
             },
             "running":true
         }

@@ -24,7 +24,7 @@
 + 2021-02-10更新 docker-compose里面,填写环境变量 SHARE_CODE_FILE=/scripts/logs/sharecode.log, 多账号可实现自己互助(只限sharecode.log日志里面几个活动),注:已停用,请使用2021-03-9更新
 + 2021-01-22更新 CUSTOM_LIST_FILE 参数支持远程定时任务列表 (⚠️务必确认列表中的任务在仓库里存在)
 + 例1:配置远程crontab_list.sh, 此处借用 shylocks 大佬的定时任务列表, 本仓库不包含列表中的任务代码, 仅作示范
-+ CUSTOM_LIST_FILE=https://raw.githubusercontent.com/shylocks/Loon/main/docker/crontab_list.sh
++ CUSTOM_LIST_FILE=https://mirror.ghproxy.com/shylocks/Loon/main/docker/crontab_list.sh
 +
 + 例2:配置docker挂载本地定时任务列表, 用法不变, 注意volumes挂载
 + volumes:
@@ -39,8 +39,8 @@
 例如：“jd_joy”会匹配到“jd_joy_feedPets”、“jd_joy_reward”、“jd_joy_steal”
 
 + 2021-01-03更新 增加 CUSTOM_SHELL_FILE 参数配置执行自定义shell脚本
-+ 例1:配置远程shell脚本, 我自己写了一个shell脚本https://raw.githubusercontent.com/iouAkira/someDockerfile/master/jd_scripts/shell_script_mod.sh 内容很简单下载惊喜农场并添加定时任务
-+ CUSTOM_SHELL_FILE=https://raw.githubusercontent.com/iouAkira/someDockerfile/master/jd_scripts/shell_script_mod.sh
++ 例1:配置远程shell脚本, 我自己写了一个shell脚本https://mirror.ghproxy.com/iouAkira/someDockerfile/master/jd_scripts/shell_script_mod.sh 内容很简单下载惊喜农场并添加定时任务
++ CUSTOM_SHELL_FILE=https://mirror.ghproxy.com/iouAkira/someDockerfile/master/jd_scripts/shell_script_mod.sh
 +
 + 例2:配置docker挂载本地自定义shell脚本,/scripts/docker/shell_script_mod.sh 为你在docker-compose.yml里面挂载到容器里面绝对路径
 + CUSTOM_SHELL_FILE=/scripts/docker/shell_script_mod.sh

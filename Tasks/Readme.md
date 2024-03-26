@@ -3,20 +3,20 @@
 
 - **elecV2P**
   ```
-  https://raw.githubusercontent.com/elecV2/elecV2P/master/efss/tasksub.json
+  https://mirror.ghproxy.com/elecV2/elecV2P/master/efss/tasksub.json
   ```
   
 - **Daily**
   ```
-  https://raw.githubusercontent.com/Oreomeow/VIP/main/Tasks/Daily.json
+  https://mirror.ghproxy.com/Oreomeow/VIP/main/Tasks/Daily.json
   ```
   
 - **News**
   ```
-  https://raw.githubusercontent.com/Oreomeow/VIP/main/Tasks/News.json
+  https://mirror.ghproxy.com/Oreomeow/VIP/main/Tasks/News.json
   ```
   
 - **V2PTaskSub** *By sngxpro*
   ```
-  https://raw.githubusercontent.com/Youthsongs/QuanX/master/V2PTaskSub/sngxprov2p.json
+  https://mirror.ghproxy.com/Youthsongs/QuanX/master/V2PTaskSub/sngxprov2p.json
   ```

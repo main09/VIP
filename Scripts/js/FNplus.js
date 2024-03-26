@@ -1,15 +1,15 @@
 // @grant nodejs
 console.log("⏳ 初始化安装推送模块中......")
-$exec('wget https://raw.githubusercontent.com/whyour/qinglong/master/sample/notify.py -O notify.py', {
+$exec('wget https://mirror.ghproxy.com/whyour/qinglong/master/sample/notify.py -O notify.py', {
   cwd: './script/Shell',
   timeout: 0,
   cb(data, error) {
     error ? console.error(error) : console.log(data)
   }
 })
-// 通知填写参考 https://raw.githubusercontent.com/whyour/qinglong/master/sample/config.sample.sh
+// 通知填写参考 https://mirror.ghproxy.com/whyour/qinglong/master/sample/config.sample.sh
 console.log("⏳ 开始执行 FNplus.py")
-$exec('python3 https://raw.githubusercontent.com/Oreomeow/freenom-py/main/FNplus.py', {
+$exec('python3 https://mirror.ghproxy.com/Oreomeow/freenom-py/main/FNplus.py', {
   cwd: './script/Shell',
   timeout: 0,
   env: {

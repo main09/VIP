@@ -97,25 +97,25 @@ ql repo https://github.com/Tsukasa007/my_script.git "jd_|jx_" "jdCookie|USER_AGE
 
 >> 入会
 ```
-ql raw https://raw.githubusercontent.com/curtinlv/JD-Script/main/OpenCard/jd_OpenCard.py
+ql raw https://mirror.ghproxy.com/curtinlv/JD-Script/main/OpenCard/jd_OpenCard.py
 ```
 >> 关注
 ```
-ql raw https://raw.githubusercontent.com/curtinlv/JD-Script/main/getFollowGifts/jd_getFollowGift.py
+ql raw https://mirror.ghproxy.com/curtinlv/JD-Script/main/getFollowGifts/jd_getFollowGift.py
 ```
 
 > `chiupam`
 
 >> 京喜工厂瓜分电力开团 ID 
 ```
-ql raw https://raw.githubusercontent.com/chiupam/JD_Diy/master/pys/activeId.py
+ql raw https://mirror.ghproxy.com/chiupam/JD_Diy/master/pys/activeId.py
 ```
 
 > `Aaron-lv`+
 
 >> 财富岛
 ```
-ql raw https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfd.js
+ql raw https://mirror.ghproxy.com/Aaron-lv/sync/jd_scripts/jd_cfd.js
 ```
 or
 ```
@@ -126,7 +126,7 @@ ql repo https://github.com/Aaron-lv/sync.git "jd_cfd" "" "" "jd_scripts"
 
 >> 口袋书店
 ```
-ql raw https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/chinnkarahoi_jd_bookshop.js
+ql raw https://mirror.ghproxy.com/Wenmoux/scripts/wen/jd/chinnkarahoi_jd_bookshop.js
 ```
 or
 ```
@@ -138,7 +138,7 @@ ql repo https://github.com/Wenmoux/scripts.git "chinnkarahoi_jd_bookshop" "" "" 
 >> 京东多合一签到脚本
 
 ```
-ql raw https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+ql raw https://mirror.ghproxy.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 ```
 or
 ```

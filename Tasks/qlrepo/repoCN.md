@@ -69,5 +69,5 @@ ql repo https://git.metauniverse-cn.com/https://github.com/star261/jd.git "scrip
 ## 单脚本
 > 翻翻乐提现单文件
 ```
-ql raw https://git.metauniverse-cn.com/https://raw.githubusercontent.com/jiulan/platypus/main/scripts/jd_ffl.js
+ql raw https://git.metauniverse-cn.com/https://mirror.ghproxy.com/jiulan/platypus/main/scripts/jd_ffl.js
 ```
